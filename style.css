@@ -1,0 +1,27 @@
+h1 {
+    text-align: left;
+}
+
+p {
+    text-align: center;;
+}
+
+.dropdown {
+    background: transparent;
+    background-color: transparent;
+    width: 50px;
+}
+
+.dropdown-menu {
+	min-width: 200px;
+}
+
+.dropdown-divider
+{
+    background-color: bisque;
+    font-weight: bold;
+}
+
+.dropdown-menu li {
+    color: brown;
+}
