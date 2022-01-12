@@ -3,10 +3,11 @@ h1 {
 }
 
 p {
-    text-align: center;;
+    display:inline-block;
+    display: inline;
 }
 
-section {
+h3 {
     text-align: center;
 }
 
