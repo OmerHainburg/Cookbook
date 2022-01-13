@@ -15,39 +15,51 @@
 </head>
 <body>
   <div class="container">
-    <div class="page-header">
-      <h1 id="main">Omer's Cookbook</h1>      
-    </div>
+    <div class="page-header"></div>
   </div>
-  <div class="container">
+  <div class="container" id="main">
     <div class="row justify-content-md-center">
       <div class="col col-lg-8">
-        <div class="dropdown">
-          <a class="btn btn-secondary dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-bs-toggle="dropdown" aria-expanded="false">
-             -- Food Menu --
-          </a>
-          <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
-            <li><a class="dropdown-item">Pakistan</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#chickenBiryani">Chicken Biryani</a></li>
-            <li><a class="dropdown-item" href="#muttonBiryani">Mutton Biryani</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item">Indian</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#alubhujjia">Alu Bhijjia</a></li>
-            <li><a class="dropdown-item" href="#daalchawal">Daal Chawal</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item">Chiniese</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#chinesericechicken">Ciniese Rice With Chicken</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Other's</a></li>
-          </ul>
-        </div>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <div class="container-fluid">
+            <a class="navbar-brand">Omer's Cookbook</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Food Menu
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <li><a class="dropdown-item">Pakistan</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#chickenBiryani">Chicken Biryani</a></li>
+                    <li><a class="dropdown-item" href="#muttonBiryani">Mutton Biryani</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item">Indian</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#alubhujjia">Alu Bhijjia</a></li>
+                    <li><a class="dropdown-item" href="#daalchawal">Daal Chawal</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item">Chiniese</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#chinesericechicken">Ciniese Rice With Chicken</a></li>
+                    <li><hr class="dropdown-divider"></li>
+                    <li><a class="dropdown-item" href="#">Other's</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
       </div>
     </div>
   </div>
-
+  <br>
+  <br>
+ 
   <section id='chickenBiryani'>
      <div class="container">
           <img src="image/chickenbiryani.jfif" class="rounded mx-auto d-block image" style="width:20%" alt="ChickenBiryani">
