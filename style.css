@@ -48,7 +48,7 @@ img{
     width: 100%;
     height: auto;
     transition: .5s ease;
-    backface-visibility: hidden;
+    /*backface-visibility: hidden;*/
   }
   
   .middle {
@@ -62,11 +62,11 @@ img{
     text-align: center;
   }
   
-  .container:hover .image {
+  .image:hover {
     opacity: 0.3;
   }
   
-  .container:hover .middle {
+  .middle:hover {
     opacity: 1;
   }
   
